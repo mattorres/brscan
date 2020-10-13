@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>569CCE2C-6F0E-4D81-8CB6-B9A1FAD53C3D</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>569CCE2C-6F0E-4D81-8CB6-B9A1FAD53C3D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BrScanOnboardingDocumento project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BrScanOnboardingDocumento</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project BrScanOnboardingDocumento with scheme BrScanOnboardingDocumento and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>624027398.76687896</real>
+			<key>timeStoppedRecording</key>
+			<real>624027403.08502996</real>
+			<key>title</key>
+			<string>Building project BrScanOnboardingDocumento with scheme BrScanOnboardingDocumento and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>569CCE2C-6F0E-4D81-8CB6-B9A1FAD53C3D</string>
+		</dict>
+		<key>DBA613AF-7566-48C5-B8A4-1115D6FCCDB8</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>DBA613AF-7566-48C5-B8A4-1115D6FCCDB8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BrScanOnboardingDocumento project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BrScanOnboardingDocumento</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project BrScanOnboardingDocumento with scheme BrScanOnboardingDocumento and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>624238679.03778398</real>
+			<key>timeStoppedRecording</key>
+			<real>624238691.10178304</real>
+			<key>title</key>
+			<string>Building project BrScanOnboardingDocumento with scheme BrScanOnboardingDocumento and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>DBA613AF-7566-48C5-B8A4-1115D6FCCDB8</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

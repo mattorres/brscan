@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>3C6353AA-FE86-49D3-B48B-7DE06010303F</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3C6353AA-FE86-49D3-B48B-7DE06010303F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BrScanOnboardingDocumento project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BrScanOnboardingDocumento</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project BrScanOnboardingDocumento with scheme BrScanOnboardingDocumento and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>623968512.789168</real>
+			<key>timeStoppedRecording</key>
+			<real>623968516.62084103</real>
+			<key>title</key>
+			<string>Building project BrScanOnboardingDocumento with scheme BrScanOnboardingDocumento and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>3C6353AA-FE86-49D3-B48B-7DE06010303F</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
