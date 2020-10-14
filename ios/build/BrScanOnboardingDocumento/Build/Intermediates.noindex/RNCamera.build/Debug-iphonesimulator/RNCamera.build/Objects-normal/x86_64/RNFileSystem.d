@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/virtualmachine/projetos/BrScanOnboardingDocumento/node_modules/react-native-camera/ios/RN/RNFileSystem.m \
-  /Users/virtualmachine/projetos/BrScanOnboardingDocumento/node_modules/react-native-camera/ios/RN/RNFileSystem.h
+  /Users/virtualmachine/projetos/brscan/node_modules/react-native-camera/ios/RN/RNFileSystem.m \
+  /Users/virtualmachine/projetos/brscan/node_modules/react-native-camera/ios/RN/RNFileSystem.h

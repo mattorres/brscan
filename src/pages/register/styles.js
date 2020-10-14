@@ -35,6 +35,11 @@ const styles = StyleSheet.create({
     borderBottomColor: colors.white,
   },
 
+  contentButton: {
+    flex: 1,
+    justifyContent: 'flex-end'
+  },
+
   button: {
     backgroundColor: colors.white,
     justifyContent: 'center',

@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/virtualmachine/projetos/BrScanOnboardingDocumento/node_modules/react-native/React/Base/RCTManagedPointer.mm \
-  /Users/virtualmachine/projetos/BrScanOnboardingDocumento/node_modules/react-native/React/Base/RCTManagedPointer.h
+  /Users/virtualmachine/projetos/brscan/node_modules/react-native/React/Base/RCTManagedPointer.mm \
+  /Users/virtualmachine/projetos/brscan/node_modules/react-native/React/Base/RCTManagedPointer.h

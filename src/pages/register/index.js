@@ -1,17 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { View, Text, TouchableOpacity } from 'react-native';
 import { TextInputMask } from 'react-native-masked-text';
+import { useNavigation } from '@react-navigation/native';
 import styles from './styles';
 
 function Register() {
   const [textCpf, setTextCpf] = useState('');
-
-  // const = () => {}
-
-  useEffect(() => {
-    // Atualiza o titulo do documento usando a API do browser
-    // console.tron.log(this.cpfField);
-  });
+  const { navigate } = useNavigation();
 
   return (
     <View style={styles.container}>
@@ -33,8 +28,8 @@ function Register() {
         </View>
       </View>
 
-      <View style={{ flex: 1, justifyContent: 'flex-end' }}>
-        <TouchableOpacity style={styles.button}>
+      <View style={styles.contentButton}>
+        <TouchableOpacity onPress={() => navigate('RegisterDoc')} style={styles.button}>
           <Text style={[styles.text, styles.textButton]}>AVANÇAR</Text>
         </TouchableOpacity>
       </View>

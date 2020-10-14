@@ -1881,9 +1881,9 @@
  </array>
  <key>files</key>
  <array>
-  <string>/Users/virtualmachine/projetos/BrScanOnboardingDocumento/node_modules/react-native/ReactCommon/jsi/jsi.cpp</string>
-  <string>/Users/virtualmachine/projetos/BrScanOnboardingDocumento/node_modules/react-native/ReactCommon/jsi/jsi-inl.h</string>
-  <string>/Users/virtualmachine/projetos/BrScanOnboardingDocumento/node_modules/react-native/ReactCommon/jsi/jsi.h</string>
+  <string>/Users/virtualmachine/projetos/brscan/node_modules/react-native/ReactCommon/jsi/jsi.cpp</string>
+  <string>/Users/virtualmachine/projetos/brscan/node_modules/react-native/React/../ReactCommon/jsi/jsi-inl.h</string>
+  <string>/Users/virtualmachine/projetos/brscan/node_modules/react-native/React/../ReactCommon/jsi/jsi.h</string>
   <string>/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/type_traits</string>
  </array>
 </dict>

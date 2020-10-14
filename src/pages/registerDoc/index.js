@@ -1,5 +1,6 @@
 import React, { useState, useRef } from 'react';
-import { View, TouchableOpacity, Text } from 'react-native';
+import { View } from 'react-native';
+import { useNavigation } from '@react-navigation/native';
 import Swiper from 'react-native-swiper';
 import styles from './styles';
 import Card from '../../Components/Card';
@@ -12,32 +13,46 @@ import DocIconLuz from '../../../assets/Doc/DocIconLuz.png';
 import DocIconPlastico from '../../../assets/Doc/DocIconPlastico.png';
 import DocIconFundoEstampado from '../../../assets/Doc/DocIconFundoEstampado.png';
 import DocIconReflexo from '../../../assets/Doc/DocIconReflexo.png';
+import DocIconTrasDocumento from '../../../assets/Doc/DocIconTrasDocumento.png';
 import IconLeft from '../../../assets/IconLeft.png';
 
 import messages from '../../messages';
 
 function RegisterDoc() {
-  const [slideIndex, setSlideIndex] = useState(0);
   const [textButton, setTextButton] = useState('AVANÇAR');
   const swiper = useRef(null);
+  const { navigate } = useNavigation();
 
   const nextSlide = () => {
-    swiper.current.scrollBy(1);
     const { index } = swiper.current.state;
 
-    if (index === 0) setTextButton('AUTORIZAR');
-    else setTextButton('ENTENDI');
+    if (index === 0) {
+      setTextButton('AUTORIZAR');
+      swiper.current.scrollTo(index + 1);
+    } else if (index === 1) {
+      swiper.current.scrollTo(index + 1);
+      setTextButton('ENTENDI');
+    } else if (index > 1) {
+      swiper.current.scrollTo(index + 1);
+      if (index === 7) {
+        navigate('ChooseDocument');
+      }
+    }
+  };
+
+  const prevSlide = () => {
+    const { index } = swiper.current.state;
+    if (index > 0) {
+      swiper.current.scrollTo(index - 1);
+    }
   };
 
   return (
     <View style={styles.container}>
       <View>
-        <BackButton icon={IconLeft} />
+        <BackButton onPress={() => prevSlide()} icon={IconLeft} />
       </View>
-      <Swiper
-        ref={swiper}
-        showsPagination={false}
-      >
+      <Swiper ref={swiper} showsPagination={false} loop={false}>
         <View style={styles.content}>
           <Card
             icon={DocIconFrenteDocumento}
@@ -60,11 +75,7 @@ function RegisterDoc() {
           />
         </View>
         <View style={styles.content}>
-          <Card
-            icon={DocIconPlastico}
-            title={messages.MSG_007}
-            subtitle=""
-          />
+          <Card icon={DocIconPlastico} title={messages.MSG_007} />
         </View>
         <View style={styles.content}>
           <Card
@@ -74,10 +85,20 @@ function RegisterDoc() {
           />
         </View>
         <View style={styles.content}>
+          <Card icon={DocIconReflexo} title={messages.MSG_009} />
+        </View>
+        <View style={styles.content}>
           <Card
-            icon={DocIconReflexo}
-            title={messages.MSG_009}
-            subtitle=""
+            icon={DocIconFrenteDocumento}
+            title={messages.MSG_0010}
+            subtitle={messages.MSG_0011}
+          />
+        </View>
+        <View style={styles.content}>
+          <Card
+            icon={DocIconTrasDocumento}
+            title={messages.MSG_0012}
+            subtitle={messages.MSG_0013}
           />
         </View>
       </Swiper>

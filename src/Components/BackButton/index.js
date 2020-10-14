@@ -1,8 +1,9 @@
 import React from 'react';
-import { View, TouchableOpacity, Image } from 'react-native';
+import { TouchableOpacity, Image } from 'react-native';
+import styles from './styles';
 
 const BackButton = ({ icon, onPress }) => (
-  <TouchableOpacity style={{ marginTop: 80, marginLeft: 20 }}>
+  <TouchableOpacity onPress={onPress} style={styles.container}>
     <Image source={icon} />
   </TouchableOpacity>
 );
